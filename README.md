@@ -167,5 +167,3 @@ mAP@0.5IOU: 0.6651400609472282
 # run test_video_ava
 python test_video_ava.py --cuda -d ava_v2.2 -v yowo -size 224 --weight path/to/weight --video path/to/video
 ```
-
-```
