@@ -1,14 +1,10 @@
 # YOWO-Bamboo: An enhanced model for giant panda action recognition 
-
-
-
-Paper:
+-We proposed an efficient real-time detection model YOWO-Bamboo for giant panda action recognition, which has demonstrated remarkable improvements over the YOWO-Plus by optimizing backbone and loss functions. The mean Average Precision (mAP) was increased from 61.5% to 66.5%, achieving higher recognition accuracy.
 
 # Improvement
-- Better 2D backbone: We use the weights of YOLOv2 from our [project](https://github.com/yjh0410/PyTorch_YOLOv2). Our YOLOv2 achieves a significantly higher AP on the COCO dataset.
+- 2D backbone: The ConvNeXt network is utilized owing to its simplicity and efficiency, leveraging the large model scale from the series along with ImageNet-22K pre-trained weights at 224x224 resolution.
 
-- Better label assignment: For a groundtruth, we assign the anchor boxes with IoU higher than the threshold 0.5, so each groundtruth might be assigned
-with multiple anchor boxes.
+- Loss functions:For the confidence and bounding box regression loss functions, we opt for Huber Loss and Distance Intersection over Union (DIoU) loss to optimize object localization and prediction.
 
 - Better loss: We deploy *GIoU loss* as the box regression loss. As for the conference loss and classification loss, they are same as the ones used in
 YOWO. Finally, all the losses are normalized by the batch size.
@@ -38,7 +34,7 @@ pip install -r requirements.txt
 ![image](./img_files/v_SalsaSpin_g03_c01.gif)
 
 # Dataset
-You can download **UCF24** and **JHMDB21** from the following links:
+Our giant panda dataset, conforming to the AVA format, is a comprehensive compilation encompassing two integral parts: a training set and a validation set. The training set contains 1.5K videos, 1.35M frames, and 48K boxes, while the validation set has 176 videos, 158K frames, and 1.4K boxes. Panda’s behaviors are systematically classified into 22 diverse action types, encompassing continuous postures such as "continuous standing", daily activities like "walking", estrus-specific behaviors like "licking the vulva", and overarching activities designated as "locomotion". 
 
 # Experiment
 
