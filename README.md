@@ -6,8 +6,6 @@ We proposed an efficient real-time detection model YOWO-Bamboo for giant panda a
 
 - Loss functions:For the confidence and bounding box regression loss functions, we opt for Huber Loss and Distance Intersection over Union (DIoU) loss to optimize object localization and prediction.
 
-- Better loss: We deploy *GIoU loss* as the box regression loss. As for the conference loss and classification loss, they are same as the ones used in
-YOWO. Finally, all the losses are normalized by the batch size.
 
 # Requirements
 - We recommend you to use Anaconda to create a conda environment:
