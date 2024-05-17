@@ -4,7 +4,7 @@ We proposed an efficient real-time detection model YOWO-Bamboo for giant panda a
 # Improvement
 - 2D backbone: The ConvNeXt network is utilized owing to its simplicity and efficiency, leveraging the large model scale from the series along with ImageNet-22K pre-trained weights at 224x224 resolution.
 
-- Loss functions:For the confidence and bounding box regression loss functions, we opt for Huber Loss and Distance Intersection over Union (DIoU) loss to optimize object localization and prediction.
+- Loss functions: For the confidence and bounding box regression loss functions, we opt for Huber Loss and Distance Intersection over Union (DIoU) loss to optimize object localization and prediction.
 
 
 # Requirements
