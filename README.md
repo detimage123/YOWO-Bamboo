@@ -1,8 +1,8 @@
 # YOWO-Bamboo: An enhanced model for giant panda action recognition 
 
-Big thanks to [YOWO](https://github.com/wei-tim/YOWO) for their open source. I reimplemented ```YOWO``` and reproduced the performance. On the ```AVA``` dataset, my reproduced YOWO is better than the official YOWO. We named this YOWO as **YOWO-Plus**. I hope that such a real-time action detector with simple structure and superior performance can attract your interest in the task of spatio-temporal action detection.
 
-Paper: [arxiv](https://arxiv.org/pdf/2210.11219)
+
+Paper:
 
 # Improvement
 - Better 2D backbone: We use the weights of YOLOv2 from our [project](https://github.com/yjh0410/PyTorch_YOLOv2). Our YOLOv2 achieves a significantly higher AP on the COCO dataset.
@@ -40,39 +40,7 @@ pip install -r requirements.txt
 # Dataset
 You can download **UCF24** and **JHMDB21** from the following links:
 
-## UCF101-24:
-* Google drive
-
-Link: https://drive.google.com/file/d/1Dwh90pRi7uGkH5qLRjQIFiEmMJrAog5J/view?usp=sharing
-
-* BaiduYun Disk
-
-Link: https://pan.baidu.com/s/11GZvbV0oAzBhNDVKXsVGKg
-
-Password: hmu6 
-
-## JHMDB21: 
-* Google drive
-
-Link: https://drive.google.com/file/d/15nAIGrWPD4eH3y5OTWHiUbjwsr-9VFKT/view?usp=sharing
-
-* BaiduYun Disk
-
-Link: https://pan.baidu.com/s/1HSDqKFWhx_vF_9x6-Hb8jA 
-
-Password: tcjd 
-
-## AVA
-You can use instructions from [here](https://github.com/yjh0410/AVA_Dataset) to prepare **AVA** dataset.
-
 # Experiment
-* UCF101-24
-
-|      Model   |  Clip  | GFLOPs | Frame mAP | Video mAP |   FPS   |    Weight    |
-|--------------|--------|--------|-----------|-----------|---------|--------------|
-|     YOWO     |   16   |  43.8  |    80.4   |   48.8    |    -    |       -      |
-|  YOWO-Plus   |   16   |  43.8  |    84.9   |   50.5    |    36   | [github](https://github.com/yjh0410/PyTorch_YOWO/releases/download/yowo-weight/yowo_ucf24_84.9.pth)   |
-|  YOWO-Nano   |   16   |   6.0  |    81.0   |   49.7    |    91   | [github](https://github.com/yjh0410/PyTorch_YOWO/releases/download/yowo-weight/yowo_nano_ucf24_81.0.pth)   |
 
 * AVA v2.2
 
