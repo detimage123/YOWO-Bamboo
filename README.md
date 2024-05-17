@@ -1,4 +1,4 @@
-# YOWO-Plus: An incremental improvement
+# YOWO-Bamboo: An enhanced model for giant panda action recognition 
 
 Big thanks to [YOWO](https://github.com/wei-tim/YOWO) for their open source. I reimplemented ```YOWO``` and reproduced the performance. On the ```AVA``` dataset, my reproduced YOWO is better than the official YOWO. We named this YOWO as **YOWO-Plus**. I hope that such a real-time action detector with simple structure and superior performance can attract your interest in the task of spatio-temporal action detection.
 
