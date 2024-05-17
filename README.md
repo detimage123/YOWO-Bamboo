@@ -36,7 +36,7 @@ Our giant panda dataset, conforming to the AVA format, is a comprehensive compil
 
 # Experiment
 
-* AVA v2.2
+* AVA v2.2(our giant panda dataset)
 
 |     Model      |    mAP    |   FPS   |    weight    |
 |----------------|-----------|---------|--------------|
