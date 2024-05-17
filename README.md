@@ -111,7 +111,7 @@ python eval.py \
         --weight path/to/weight \
         --cal_frame_mAP \
 ```
-
+```Shell
 # Video mAP
 python eval.py \
         --cuda \
@@ -125,7 +125,6 @@ python eval.py \
 
 
 * AVA
-
 Run the following command to calculate frame mAP@0.5 IoU:
 
 ```Shell
@@ -138,67 +137,29 @@ python eval.py \
 
 Our YOWO-Bamboo's result of frame mAP@0.5 IoU on AVAv2.2(our giant panda dataset):
 ```Shell
-AP@0.5IOU/answer phone: 0.6200712155913068,
-AP@0.5IOU/bend/bow (at the waist): 0.3684199174015223,
-AP@0.5IOU/carry/hold (an object): 0.4368366146575504,
-AP@0.5IOU/climb (e.g., a mountain): 0.006524045204733175,
-AP@0.5IOU/close (e.g., a door, a box): 0.10121428961033546,
-AP@0.5IOU/crouch/kneel: 0.14271053289648555,
-AP@0.5IOU/cut: 0.011371656268128742,
-AP@0.5IOU/dance: 0.3472742170664651,
-AP@0.5IOU/dress/put on clothing: 0.05568205010936085,
-AP@0.5IOU/drink: 0.18867980887744548,
-AP@0.5IOU/drive (e.g., a car, a truck): 0.5727336663149236,
-AP@0.5IOU/eat: 0.2438949290288357,
-AP@0.5IOU/enter: 0.03631300073681878,
-AP@0.5IOU/fall down: 0.16097137034226533,
-AP@0.5IOU/fight/hit (a person): 0.35295156111441717,
-AP@0.5IOU/get up: 0.1661305661768072,
-AP@0.5IOU/give/serve (an object) to (a person): 0.08171070895093906,
-AP@0.5IOU/grab (a person): 0.04786212215222141,
-AP@0.5IOU/hand clap: 0.16502425129399353,
-AP@0.5IOU/hand shake: 0.05668297330776857,
-AP@0.5IOU/hand wave: 0.0019633474257698715,
-AP@0.5IOU/hit (an object): 0.004926567809641652,
-AP@0.5IOU/hug (a person): 0.14948677865170307,
-AP@0.5IOU/jump/leap: 0.11724856806405773,
-AP@0.5IOU/kiss (a person): 0.18323100733498285,
-AP@0.5IOU/lie/sleep: 0.5566160853381206,
-AP@0.5IOU/lift (a person): 0.05071348972423068,
-AP@0.5IOU/lift/pick up: 0.02400509697339648,
-AP@0.5IOU/listen (e.g., to music): 0.008846030334678949,
-AP@0.5IOU/listen to (a person): 0.6111863505487993,
-AP@0.5IOU/martial art: 0.35494188472527066,
-AP@0.5IOU/open (e.g., a window, a car door): 0.13838582757710105,
-AP@0.5IOU/play musical instrument: 0.17637146118119046,
-AP@0.5IOU/point to (an object): 0.0030957935199989314,
-AP@0.5IOU/pull (an object): 0.006138508972102678,
-AP@0.5IOU/push (an object): 0.008798412014783267,
-AP@0.5IOU/push (another person): 0.06436728640658615,
-AP@0.5IOU/put down: 0.011691087258412239,
-AP@0.5IOU/read: 0.23947763826955498,
-AP@0.5IOU/ride (e.g., a bike, a car, a horse): 0.3573836844473405,
-AP@0.5IOU/run/jog: 0.3893352170239517,
-AP@0.5IOU/sail boat: 0.09309936689447072,
-AP@0.5IOU/shoot: 0.006834072970687,
-AP@0.5IOU/sing to (e.g., self, a person, a group): 0.08181910176202781,
-AP@0.5IOU/sit: 0.7709624420964878,
-AP@0.5IOU/smoke: 0.05268953989999123,
-AP@0.5IOU/stand: 0.7668298075740738,
-AP@0.5IOU/swim: 0.17407407407407408,
-AP@0.5IOU/take (an object) from (a person): 0.0383472793429592,
-AP@0.5IOU/take a photo: 0.025915711741497306,
-AP@0.5IOU/talk to (e.g., self, a person, a group): 0.7390988530695071,
-AP@0.5IOU/text on/look at a cellphone: 0.009139739938803557,
-AP@0.5IOU/throw: 0.015058496300738047,
-AP@0.5IOU/touch (an object): 0.3090900998192289,
-AP@0.5IOU/turn (e.g., a screwdriver): 0.01904009620734998,
-AP@0.5IOU/walk: 0.6288594756415645,
-AP@0.5IOU/watch (a person): 0.6489390785120175,
-AP@0.5IOU/watch (e.g., TV): 0.11913599687628156,
-AP@0.5IOU/work on a computer: 0.18941724461502552,
-AP@0.5IOU/write: 0.022696113047944347,
-mAP@0.5IOU: 0.20553860351814546
+/AP@0.5IOU/climbing: 0.5757113617658555
+/AP@0.5IOU/Continued bipedal standing: 0.2649716081613984
+/AP@0.5IOU/Continued lying: 0.8984453325547908
+/AP@0.5IOU/continued prone: 0.8905966092013693
+AP@0.5IOU/continued sitting: 0.9316373376049558
+AP@0.5IOU/Continued standing: 0.6855850034354113
+AP@0.5IOU/curl up: 0.014272047482379585
+AP@0.5IOU/Drinking: 0.6272800219728261
+AP@0.5IOU/Eating: 0.8651951536485323
+AP@0.5IOU/Excretion: 0.047997439769149976
+AP@0.5IOU/Exploring: 0.6344390447724938
+AP@0.5IOU/Grooming: 0.76204946299934
+AP@0.5IOU/Lick the chest and abdomen: 1.0
+AP@0.5IOU/Lick the vulva: 1.0
+AP@0.5IOU/Locomotive: 0.8094823905218087
+AP@0.5IOU/Marking: 0.8710604453870625
+AP@0.5IOU/Playing: 0.7815101075387594
+AP0.5IOU/Pregnancy grasping: 0.26234469581801595
+AP@0.5IOU/Resting: 0.7501787270419815
+AP@0.5IOU/Rub Yin: 0.4
+AP@0.5IOU/Rubbing: 0.6354587135837136
+AP@0.5IOU/Walking: 0.9248658375791767
+mAP@0.5IOU: 0.6651400609472282
 ```
 
 ## Demo
