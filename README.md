@@ -134,10 +134,10 @@ python eval.py \
 
 Our YOWO-Bamboo's result of frame mAP@0.5 IoU on AVAv2.2(our giant panda dataset):
 ```Shell
-/AP@0.5IOU/climbing: 0.5757113617658555
-/AP@0.5IOU/Continued bipedal standing: 0.2649716081613984
-/AP@0.5IOU/Continued lying: 0.8984453325547908
-/AP@0.5IOU/continued prone: 0.8905966092013693
+AP@0.5IOU/climbing: 0.5757113617658555
+AP@0.5IOU/Continued bipedal standing: 0.2649716081613984
+AP@0.5IOU/Continued lying: 0.8984453325547908
+AP@0.5IOU/continued prone: 0.8905966092013693
 AP@0.5IOU/continued sitting: 0.9316373376049558
 AP@0.5IOU/Continued standing: 0.6855850034354113
 AP@0.5IOU/curl up: 0.014272047482379585
