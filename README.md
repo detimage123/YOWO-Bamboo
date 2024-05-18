@@ -25,11 +25,8 @@ pip install -r requirements.txt
 
 # Visualization
 
-![image](./img_files/v_Basketball_g07_c04.gif)
-![image](./img_files/v_Biking_g01_c01.gif)
-![image](./img_files/v_HorseRiding_g01_c03.gif)
-![image](./img_files/v_IceDancing_g02_c05.gif)
-![image](./img_files/v_SalsaSpin_g03_c01.gif)
+![image](./img_files/panda_1.gif)
+
 
 # Dataset
 Our giant panda dataset, conforming to the AVA format, is a comprehensive compilation encompassing two integral parts: a training set and a validation set. The training set contains 1.5K videos, 1.35M frames, and 48K boxes, while the validation set has 176 videos, 158K frames, and 1.4K boxes. Panda’s behaviors are systematically classified into 22 diverse action types, encompassing continuous postures such as "continuous standing", daily activities like "walking", estrus-specific behaviors like "licking the vulva", and overarching activities designated as "locomotion". 
