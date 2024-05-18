@@ -42,8 +42,8 @@ Our giant panda dataset, conforming to the AVA format, is a comprehensive compil
 |    YOWOv2-T    |   24.8    |    -    |       -      |
 |    YOWOv2-M    |   35.1    |    -    |       -      |
 |    YOWOv2-L    |   53.1    |    -    |       -      |
-| YOWO-B(YOLOv2) |   65.4    |    34   |  [github](https://github.com/yjh0410/PyTorch_YOWO/releases/download/yowo-weight/yowo_nano_ava_v2.2_K32_19.5.pth)  |
-|YOWO-B(ConvNeXt)|   66.5    |    30   |  [github](https://github.com/yjh0410/PyTorch_YOWO/releases/download/yowo-weight/yowo_nano_ava_v2.2_K32_19.5.pth)  |
+| YOWO-B(YOLOv2) |   65.4    |    34   |  |
+|YOWO-B(ConvNeXt)|   66.5    |    30   |  |
 
 ## Train YOWO-Bamboo
 * UCF101-24
