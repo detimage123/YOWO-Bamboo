@@ -1,5 +1,5 @@
 # YOWO-Bamboo: An enhanced model for giant panda action recognition 
-We proposed an efficient real-time detection model YOWO-Bamboo for giant panda action recognition, which has demonstrated remarkable improvements over the YOWO-Plus by optimizing backbone and loss functions. The mean Average Precision (mAP) was increased from 61.5% to 66.5%, achieving higher recognition accuracy.
+We proposed an efficient real-time detection model YOWO-Bamboo for giant panda action recognition, which has demonstrated remarkable improvements over the YOWO-Plus by optimizing backbone and loss functions. The mean Average Precision (mAP) of our enhanced model was increased from 61.5% to 66.5%, achieving higher recognition accuracy.
 
 # Improvement
 - 2D backbone: The ConvNeXt network is utilized owing to its simplicity and efficiency, leveraging the large model scale from the series along with ImageNet-22K pre-trained weights at 224x224 resolution.
