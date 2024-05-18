@@ -37,7 +37,7 @@ Our giant panda dataset, conforming to the AVA format, is a comprehensive compil
 
 |     Model      |    mAP    |   FPS   |    weight    |
 |----------------|-----------|---------|--------------|
-|    YOWO-Plus   |   61.5    |    34   |       -      |
+|    YOWO-Plus   |   61.5    |    34   |       [github](https://github.com/detimage123/download/blob/master/yowo_epoch_10.pth)      |
 |    YOWOv2-N    |   31.7    |    -    |       -      |
 |    YOWOv2-T    |   24.8    |    -    |       -      |
 |    YOWOv2-M    |   35.1    |    -    |       -      |
