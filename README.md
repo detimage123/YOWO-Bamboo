@@ -42,7 +42,7 @@ Our giant panda dataset, conforming to the AVA format, is a comprehensive compil
 |    YOWOv2-T    |   24.8    |    -    |       -      |
 |    YOWOv2-M    |   35.1    |    -    |       -      |
 |    YOWOv2-L    |   53.1    |    -    |       -      |
-| YOWO-B(YOLOv2) |   65.4    |    34   |  |
+| YOWO-B(YOLOv2) |   65.4    |    34   | Not Uploaded Yet |
 |YOWO-B(ConvNeXt)|   66.5    |    30   |[github](https://github.com/detimage123/download/blob/master/yowo-b_convnext.pth) |
 
 ## Train YOWO-Bamboo
